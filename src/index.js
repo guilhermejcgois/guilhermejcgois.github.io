@@ -1,0 +1,1 @@
+document = require('./index.pug');
