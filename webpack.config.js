@@ -1,5 +1,6 @@
 const path = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -10,10 +11,11 @@ module.exports = {
     },
     module: {
         rules: [{
-                test: /\.css$/,
+                test: /\.scss$/,
                 use: [
                     'style-loader',
-                    'css-loader'
+                    'css-loader',
+                    'sass-loader'
                 ]
             },
             {
@@ -32,7 +34,13 @@ module.exports = {
     },
     plugins: [
         new CleanWebpackPlugin(['dist']),
-        new HtmlWebpackPlugin({ template: './src/index.pug' })
+        new HtmlWebpackPlugin({
+            template: './src/index.pug'
+        }),
+        new CopyWebpackPlugin([
+            './src/assets',
+            { from: './src/styles/*.css', to: './styles/'}
+        ])
     ],
     output: {
         filename: 'bundle.js',
