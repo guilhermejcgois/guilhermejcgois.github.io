@@ -1,64 +1,64 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,500,300italic,500italic,700italic,900,300);
 
-:root {
-  --wave-delay: 5s;
-  --wave-duration: 3s;
-  --wave-time: calc(var(--wave-delay));
-  --line-margin: 8px;
-  --ident-0-margin: 0;
-  --ident-1-margin: 19px;
-  --ident-2-margin: 35px; 
-  --speed-factor: 1.5;
-  --caret-duration: calc(1s / var(--speed-factor));
-  --html-delay: var(--caret-duration);
-  --html-duration: calc(6s / var(--speed-factor));
-  --html-steps: 6;
-  --html-steps-caret: calc(var(--html-steps) + 1);
-  --html-from-width: 0;
-  --html-to-width: 60px;
-  --head-delay: calc(var(--html-delay) + var(--html-duration) + var(--html-delay));
-  --head-duration: calc(6s / var(--speed-factor));
-  --head-steps: 6;
-  --head-steps-caret: calc(var(--head-steps) + 5);
-  --head-from-width: 19px;
-  --head-to-width: 81px;
-  --title-delay: calc(var(--head-delay) + var(--head-duration) + var(--html-delay) + var(--wave-duration));
-  --title-duration: calc(22s / var(--speed-factor));
-  --title-steps: 22;
-  --title-steps-caret: calc(var(--title-steps) + 1);
-  --title-from-width: 35px;
-  --title-to-width: 256px;
-  --head-end-delay: calc(var(--title-delay) + var(--title-duration) + var(--html-delay));
-  --head-end-duration: calc(7s / var(--speed-factor));
-  --head-end-steps: 7;
-  --head-end-steps-caret: calc(var(--head-end-steps) + 1);
-  --head-end-from-width: 19px;
-  --head-end-to-width: 90px;
-  --body-delay: calc(var(--head-end-delay) + var(--head-end-duration) + var(--html-delay));
-  --body-duration: calc(6s / var(--speed-factor));
-  --body-steps: 6;
-  --body-steps-caret: calc(var(--body-steps) + 1);
-  --body-from-width: 19px;
-  --body-to-width: 80px;
-  --body-text-delay: calc(var(--body-delay) + var(--body-duration) + var(--html-delay));
-  --body-text-duration: calc(11s / var(--speed-factor));
-  --body-text-steps: 11;
-  --body-text-steps-caret: calc(var(--body-text-steps) + 1);
-  --body-text-from-width: 35px;
-  --body-text-to-width: 146px;
-  --body-end-delay: calc(var(--body-text-delay) + var(--body-text-duration) + var(--html-delay));
-  --body-end-duration: calc(7s / var(--speed-factor));
-  --body-end-steps: 7;
-  --body-end-steps-caret: calc(var(--body-end-steps) + 1);
-  --body-end-from-width: 19px;
-  --body-end-to-width: 90px;
-  --html-end-delay: calc(var(--body-end-delay) + var(--body-end-duration) + var(--html-delay));
-  --html-end-duration: calc(6s / var(--speed-factor));
-  --html-end-steps: 7;
-  --html-end-steps-caret: calc(var(--html-end-steps) + 1);
-  --html-end-from-width: 0;
-  --html-end-to-width: 71px;
-}
+$letter-lenth: 11px;
+$eyes-delay: 6s;
+$wave-delay: 11s;
+$wave-duration: 3s;
+$wave-time: 5s;
+$line-margin: 8px;
+$ident-0-margin: 0;
+$ident-1-margin: $letter-lenth;
+$ident-2-margin: $ident-1-margin * 2;
+$speed-factor: 1.5;
+$caret-duration: 1s / $speed-factor;
+$html-delay: $caret-duration;
+$html-duration: 6s / $speed-factor;
+$html-steps: 6;
+$html-steps-caret: $html-steps;
+$html-from-width: 0;
+$html-to-width: $letter-lenth * $html-steps;
+$head-delay: $html-delay + $html-duration + $html-delay;
+$head-duration: 6s / $speed-factor;
+$head-steps: 7;
+$head-steps-caret: $head-steps + 5;
+$head-from-width: 0;
+$head-to-width: $letter-lenth * $head-steps;
+$title-delay: $head-delay + $head-duration + $html-delay + $wave-duration;
+$title-duration: 22s / $speed-factor;
+$title-steps: 24;
+$title-steps-caret: $title-steps - 1;
+$title-from-width: 0;
+$title-to-width: $letter-lenth * $title-steps;
+$head-end-delay: $title-delay + $title-duration + $html-delay;
+$head-end-duration: 7s / $speed-factor;
+$head-end-steps: 8;
+$head-end-steps-caret: $head-end-steps;
+$head-end-from-width: 0;
+$head-end-to-width: $letter-lenth * $head-end-steps;
+$body-delay: $head-end-delay + $head-end-duration + $html-delay;
+$body-duration: 6s / $speed-factor;
+$body-steps: 7;
+$body-steps-caret: $body-steps;
+$body-from-width: 0;
+$body-to-width: $letter-lenth * $body-steps;
+$body-text-delay: $body-delay + $body-duration + $html-delay;
+$body-text-duration: 11s / $speed-factor;
+$body-text-steps: 13;
+$body-text-steps-caret: $body-text-steps - 1;
+$body-text-from-width: 0;
+$body-text-to-width: $letter-lenth * $body-text-steps;
+$body-end-delay: $body-text-delay + $body-text-duration + $html-delay;
+$body-end-duration: 7s / $speed-factor;
+$body-end-steps: 8;
+$body-end-steps-caret: $body-end-steps;
+$body-end-from-width: 0;
+$body-end-to-width: $letter-lenth * $body-end-steps;
+$html-end-delay: $body-end-delay + $body-end-duration + $html-delay;
+$html-end-duration: 6s / $speed-factor;
+$html-end-steps: 8;
+$html-end-steps-caret: $html-end-steps;
+$html-end-from-width: 0;
+$html-end-to-width: $letter-lenth * $html-end-steps;
 
 * {
   margin: 0;
@@ -112,12 +112,12 @@ body {
   grid-template-rows: repeat(8, 1fr);
 }
 .image:not(.animate) .line { display: none; }
-.line { grid-column: 1; margin-left: var(--line-margin); }
-.line.html { padding-left: var(--ident-0-margin); }
-.line.head { padding-left: var(--ident-1-margin); }
-.line.title { padding-left: var(--ident-2-margin); }
-.line.body { padding-left: var(--ident-1-margin); }
-.line.body.text { padding-left: var(--ident-2-margin); }
+.line { grid-column: 1; margin-left: $line-margin; }
+.line.html { padding-left: $ident-0-margin; }
+.line.head { padding-left: $ident-1-margin; }
+.line.title { padding-left: $ident-2-margin; }
+.line.body { padding-left: $ident-1-margin; }
+.line.body.text { padding-left: $ident-2-margin; }
 
 @keyframes caret {
   from { border-right: transparent; }
@@ -130,76 +130,76 @@ body {
 .animate .line.begin.html {
   grid-row: 1;
   overflow: hidden;
-  animation: type-html var(--html-duration) steps(var(--html-steps)) var(--html-delay) 1 normal both, caret var(--caret-duration) steps(2) var(--html-delay) var(--html-steps-caret);
+  animation: type-html $html-duration steps($html-steps) $html-delay 1 normal both, caret $caret-duration steps(2) $html-delay $html-steps-caret;
 }
 @keyframes type-html {
-  from{width: var(--html-from-width);}
-  to{width: var(--html-to-width);}
+  from{width: $html-from-width;}
+  to{width: $html-to-width;}
 }
 
 .animate .line.begin.head {
   grid-row: 2;
   overflow: hidden;
-  animation: type-head var(--head-duration) steps(var(--head-steps)) var(--head-delay) 1 normal both, caret var(--caret-duration) steps(2) var(--head-delay) var(--head-steps-caret);
+  animation: type-head $head-duration steps($head-steps) $head-delay 1 normal both, caret $caret-duration steps(2) $head-delay $head-steps-caret;
 }
 @keyframes type-head {
-  from{width: var(--head-from-width);}
-  to{width: var(--head-to-width);}
+  from{width: $head-from-width;}
+  to{width: $head-to-width;}
 }
 
 .animate .line.title {
   grid-row: 3;
   overflow: hidden;
-  animation: type-title var(--title-duration) steps(var(--title-steps)) var(--title-delay) 1 normal both, caret var(--caret-duration) steps(2) var(--title-delay) var(--title-steps-caret);
+  animation: type-title $title-duration steps($title-steps) $title-delay 1 normal both, caret $caret-duration steps(2) $title-delay $title-steps-caret;
 }
 @keyframes type-title {
-  from{width: var(--title-from-width);}
-  to{width: var(--title-to-width);}
+  from{width: $title-from-width;}
+  to{width: $title-to-width;}
 }
 .animate .line.end.head {
   grid-row: 4;
   overflow: hidden;
-  animation: type-head-end var(--head-end-duration) steps(var(--head-end-steps)) var(--head-end-delay) 1 normal both, caret var(--caret-duration) steps(2) var(--head-end-delay) var(--head-end-steps-caret);
+  animation: type-head-end $head-end-duration steps($head-end-steps) $head-end-delay 1 normal both, caret $caret-duration steps(2) $head-end-delay $head-end-steps-caret;
 }
 @keyframes type-head-end {
-  from{width: var(--head-end-from-width);}
-  to{width: var(--head-end-to-width);}
+  from{width: $head-end-from-width;}
+  to{width: $head-end-to-width;}
 }
 .animate .line.begin.body {
   grid-row: 5;
   overflow: hidden;
-  animation: type-body var(--body-duration) steps(var(--body-steps)) var(--body-delay) 1 normal both, caret var(--caret-duration) steps(2) var(--body-delay) var(--body-steps-caret);
+  animation: type-body $body-duration steps($body-steps) $body-delay 1 normal both, caret $caret-duration steps(2) $body-delay $body-steps-caret;
 }
 @keyframes type-body {
-  from{width: var(--body-from-width);}
-  to{width: var(--body-to-width);}
+  from{width: $body-from-width;}
+  to{width: $body-to-width;}
 }
 .animate .line.body.text {
   grid-row: 6;
   overflow: hidden;
-  animation: type-body-text var(--body-text-duration) steps(var(--body-text-steps)) var(--body-text-delay) 1 normal both, caret var(--caret-duration) steps(2) var(--body-text-delay) var(--body-text-steps-caret);
+  animation: type-body-text $body-text-duration steps($body-text-steps) $body-text-delay 1 normal both, caret $caret-duration steps(2) $body-text-delay $body-text-steps-caret;
 }
 @keyframes type-body-text {
-  from{width: var(--body-text-from-width);}
-  to{width: var(--body-text-to-width);}
+  from{width: $body-text-from-width;}
+  to{width: $body-text-to-width;}
 }
 .animate .line.end.body {
   grid-row: 7;
   overflow: hidden;
-  animation: type-body-end var(--body-end-duration) steps(var(--body-end-steps)) var(--body-end-delay) 1 normal both, caret var(--caret-duration) steps(2) var(--body-end-delay) var(--body-end-steps-caret);
+  animation: type-body-end $body-end-duration steps($body-end-steps) $body-end-delay 1 normal both, caret $caret-duration steps(2) $body-end-delay $body-end-steps-caret;
 }
 @keyframes type-body-end {
-  from{width: var(--body-end-from-width);}
-  to{width: var(--body-end-to-width);}
+  from{width: $body-end-from-width;}
+  to{width: $body-end-to-width;}
 }
 .animate .line.end.html {
   grid-row: 8;
   overflow: hidden;
-  animation: type-html-end var(--html-end-duration) steps(var(--html-end-steps)) var(--html-end-delay) 1 normal both, caret var(--caret-duration) steps(2) var(--html-end-delay) var(--html-end-steps-caret);
+  animation: type-html-end $html-end-duration steps($html-end-steps) $html-end-delay 1 normal both, caret $caret-duration steps(2) $html-end-delay $html-end-steps-caret;
 }
 @keyframes type-html-end {
-  from{width: var(--html-end-from-width);}
-  to{width: var(--html-end-to-width);}
+  from{width: $html-end-from-width;}
+  to{width: $html-end-to-width;}
 }
 
 .people.head {
@@ -222,16 +222,16 @@ body {
 }
 
 .eyes.animate {
-  animation: 10s eyes ease;
+  animation: 10s eyes ease $eyes-delay;
 }
 
 @keyframes eyes {
   0% { transform: translate3d(0,0,0); }
   10% { transform: translate3d(0,-18px,0); }
   20% { transform: translate3d(0,-19px,0); }
-  40% { transform: translate3d(0,0,0); }
+  30% { transform: translate3d(0,0,0); }
   50% { transform: translate3d(0,-19px,0); }
-  80% { transform: translate3d(0,-19px,0); }
+  70% { transform: translate3d(0,-19px,0); }
   100% { transform: translate3d(0,0,0); }
 }
 
@@ -260,7 +260,7 @@ body {
 
 .wave {
   transform-origin: left center;
-  animation: 3s wave ease var(--wave-delay);
+  animation: 3s wave ease $wave-delay;
 }
 
 @keyframes wave {
