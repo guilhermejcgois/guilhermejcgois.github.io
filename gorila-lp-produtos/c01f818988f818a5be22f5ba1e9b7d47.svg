@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1366px" height="717px" viewBox="0 0 1366 717" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>42878DED-E2B9-4754-9F80-206E3151D144</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#815AE8" offset="0%"></stop>
+            <stop stop-color="#9278F4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Produtos-A" fill="url(#linearGradient-1)">
+            <g id="Hero" transform="translate(-130.000000, 0.000000)">
+                <path d="M106,673.832942 C439.666907,721.509848 698.371884,729.693316 882.114931,698.383346 C1157.7295,651.41839 1369.51508,600.457299 1513.48988,600.457299 C1520.83671,600.457299 1520.83671,586.914007 1513.48988,559.827423 L1513.48988,0 L106,0 L106,673.832942 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
