@@ -30,16 +30,36 @@
   <div class="header-card"><img class="exportable" src="assets/exportable.png" srcset="assets/exportable@2x.png 2x, assets/exportable@3x.png 3x"></div>
   <div class="header-card"><img class="exportable" src="assets/exportable.png" srcset="assets/exportable@2x.png 2x, assets/exportable@3x.png 3x"></div>
 </div>
-<section class="principal" id="principal">
-  <div class="cards-carrousel">
-    <div class="cards"><span class="card card-1 front left active"></span><span class="card card-2 back left active"></span><span class="card card-3 front active"></span><span class="card card-4 back right active"></span><span class="card card-5 front right active"></span></div>
-  </div>
-  <div class="cards-carrousel__text hide"><span class="line line-1">Mais de 400</span><span class="line line-2">CDBs e LCAs</span><span class="line line-3">em um único lugar</span><span class="line line-4">Compare e tome a melhor decisão</span><span class="line line-5">com rapidez e mais informações</span></div>
-  <div class="card-view"></div>
-  <div class="card-view__text"><span class="title">Encontre o investimento certo</span><span class="text">Cada investidor tem necessidades e objetivos especifícos. Filtre aplicações por prazos de vencimento, rating de agências de risco ou rentabilidade para encontrar opções adequadas aos seus produtos.</span>
-    <button>Quero ver</button>
-  </div>
-</section>
+  <section class="principal" id="principal">
+    <div class="cards-carrousel">
+      <div class="cards"><span class="card card-1 front left active"></span><span class="card card-2 back left active"></span><span class="card card-3 front active"></span><span class="card card-4 back right active"></span><span class="card card-5 front right active"></span></div>
+    </div>
+    <div class="cards-carrousel__text hide"><span class="line line-1">Mais de 400</span><span class="line line-2">CDBs e LCAs</span><span class="line line-3">em um único lugar</span><span class="line line-4">Compare e tome a melhor decisão</span><span class="line line-5">com rapidez e mais informações</span></div>
+    <div class="card-view">
+      <div class="horizontal-line"></div>
+      <div class="vertical-line"></div><span class="line">Filtre pela</span><span class="line">rentabilidade</span><span class="line">do seu CDB</span>
+        <div class="radio-group" id="rate-radio-group">
+          <div class="radio-control">
+            <input type="radio" id="cdi" name="rate-radio-group" value="cdi" checked>
+            <div class="radio-circle"></div>
+            <label for="cdi">% do CDI</label>
+          </div>
+          <div class="radio-control">
+            <input type="radio" id="aa" name="rate-radio-group" value="aa">
+            <div class="radio-circle"></div>
+            <label for="aa">% ao ano</label>
+          </div>
+          <div class="radio-control">
+            <input type="radio" id="ipca" name="rate-radio-group" value="ipca">
+            <div class="radio-circle"></div>
+            <label for="ipca">IPCA+</label>
+          </div>
+        </div>
+    </div>
+    <div class="card-view__text"><span class="title">Encontre o investimento certo</span><span class="text">Cada investidor tem necessidades e objetivos especifícos. Filtre aplicações por prazos de vencimento, rating de agências de risco ou rentabilidade para encontrar opções adequadas aos seus produtos.</span>
+      <button>Quero ver</button>
+    </div>
+  </section>
   <footer class="footer--sample-a">
     <div class="footer__content footer__content--sample-a">
       <div class="content__left content__left--sample-a">
@@ -53,12 +73,12 @@
     <div class="footer__bar footer__bar--sample-a">
       <div class="footer__logo footer__logo--sample-a"></div>
       <div class="footer__social footer__social--sample-a">
-          <ul id="social-links">
-            <li class="facebook"><a href="https://www.facebook.com/GorilaInvest/"></a></li>
-            <li class="twitter"><a href="https://twitter.com/GorilaInvest/"></a></li>
-            <li class="instagram"><a href="https://www.instagram.com/GorilaInvest/"></a></li>
-            <li class="linkedin"><a href="https://www.linkedin.com/company/GorilaInvest/"></a></li>
-          </ul>
+        <ul id="social-links">
+          <li class="facebook"><a href="https://www.facebook.com/GorilaInvest/"></a></li>
+          <li class="twitter"><a href="https://twitter.com/GorilaInvest/"></a></li>
+          <li class="instagram"><a href="https://www.instagram.com/GorilaInvest/"></a></li>
+          <li class="linkedin"><a href="https://www.linkedin.com/company/GorilaInvest/"></a></li>
+        </ul>
       </div>
     </div>
   </footer>
