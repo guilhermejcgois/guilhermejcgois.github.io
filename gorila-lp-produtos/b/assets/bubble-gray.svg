@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="131px" height="220px" viewBox="0 0 131 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>D30E8BC7-40CB-4BE6-AA07-4E9A7ABAE627</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="15.718783%" y1="-11.8449526%" x2="84.281217%" y2="111.844953%" id="linearGradient-1">
+            <stop stop-color="#888E8E" offset="0%"></stop>
+            <stop stop-color="#CACBCC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.25">
+        <g id="Produtos-A" transform="translate(-936.000000, -1373.000000)" fill="url(#linearGradient-1)">
+            <path d="M940.602577,1463.02726 C929.034395,1506.2735 943.133924,1550.6513 985.67166,1580.43698 C1028.2094,1615.57498 1047.58386,1571.47621 1059.78136,1501.66516 C1071.97886,1426.50179 1069.41455,1379.35257 1026.87681,1373.15024 C984.339078,1372.30024 952.170759,1414.96674 940.602577,1463.02726 Z" id="Oval-2"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="326px" height="513px" viewBox="0 0 326 513" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>6147A43E-C155-451F-BB3A-7B340F8B0380</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M0,0 L284,0 L284,443 L0,443 L0,0 Z" id="path-1"></path>
+        <filter x="-5.3%" y="-3.4%" width="110.6%" height="106.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#815AE8" offset="0%"></stop>
+            <stop stop-color="#9278F4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-4">
+            <stop stop-color="#10C0C6" offset="0%"></stop>
+            <stop stop-color="#4DDE90" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-5" cx="32.5" cy="32.5" r="32.5"></circle>
+        <filter x="-26.2%" y="-20.0%" width="152.3%" height="152.3%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-8">
+            <stop stop-color="#888E8E" offset="0%"></stop>
+            <stop stop-color="#CACBCC" offset="100%"></stop>
+        </linearGradient>
+        <path d="M25.8346667,22.1653333 L38.8578554,22.1653333 C39.4862843,22.1653333 40,22.9893333 40,24 C40,25.0106667 39.4862843,25.8346667 38.8578554,25.8346667 L25.8346667,25.8346667 L25.8346667,38.8561929 C25.8346667,39.4862843 25.0106667,40 24,40 C22.9893333,40 22.1653333,39.4862843 22.1653333,38.8561929 L22.1653333,25.8346667 L9.14380715,25.8346667 C8.51371571,25.8346667 8,25.0106667 8,24 C8,22.9893333 8.51371571,22.1653333 9.14380715,22.1653333 L22.1653333,22.1653333 L22.1653333,9.14214464 C22.1653333,8.51371571 22.9893333,8 24,8 C25.0106667,8 25.8346667,8.51371571 25.8346667,9.14214464 L25.8346667,22.1653333 Z" id="path-9"></path>
+        <path d="M8.00096483,1.33333333 C11.6769743,1.33333333 14.6673099,4.32366893 14.6673099,8.00032161 C14.6673099,11.6763311 11.6769743,14.6666667 8.00096483,14.6666667 C4.32431216,14.6666667 1.33333333,11.6763311 1.33333333,8.00032161 C1.33333333,4.32366893 4.32431216,1.33333333 8.00096483,1.33333333 Z M13.9460418,8.00033072 C13.9460418,4.72154776 11.2790955,2.05460144 8.00097394,2.05460144 C4.72219098,2.05460144 2.05524467,4.72154776 2.05524467,8.00033072 C2.05524467,11.2784522 4.72219098,13.9453986 8.00097394,13.9453986 C11.2790955,13.9453986 13.9460418,11.2784522 13.9460418,8.00033072 Z M8.55278432,4 C9.02633554,4 9.41452173,4.38908478 9.41452173,4.86263599 C9.41452173,5.33618721 9.02633554,5.71359046 8.55278432,5.71359046 C8.0792331,5.71359046 7.70182986,5.33618721 7.70182986,4.86263599 C7.70182986,4.38908478 8.0792331,4 8.55278432,4 Z M9.03801707,6.29586975 L8.26164467,9.96027556 C8.2301944,10.1004539 8.21851287,10.2073848 8.21851287,10.30533 C8.21851287,10.6072526 8.35869122,10.7034005 8.66061382,10.7034005 C8.85470692,10.7034005 8.94097052,10.6719503 9.00566822,10.6396014 C8.95085489,11.4042923 8.40182302,11.7493467 7.82044231,11.7493467 C7.17346531,11.7493467 6.66666667,11.3611605 6.66666667,10.4562913 C6.66666667,10.2514152 6.69901552,10.0132917 6.75293027,9.75539951 L7.48617086,6.29586975 L9.03801707,6.29586975 Z" id="path-11"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Card">
+            <g id="Card-Base">
+                <g id="Group" stroke-width="1" fill-rule="evenodd" transform="translate(21.000000, 21.000000)">
+                    <g id="Rectangle-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <rect id="20:20" fill="url(#linearGradient-3)" x="0" y="0" width="284" height="6"></rect>
+                    <g id="General-/-Header-/-Investimentos-/-Elements-/-More" transform="translate(109.000000, 410.000000)">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-5"></use>
+                            <use fill="url(#linearGradient-4)" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        </g>
+                        <g id="Icons-/-XColor-/-Gray-/-GradientDiagonal" mask="url(#mask-6)" fill="url(#linearGradient-8)" fill-rule="evenodd">
+                            <rect id="IconColor-/-Gray-/-GradientDiagonal" x="0" y="0" width="65" height="65"></rect>
+                        </g>
+                        <g id="Icons-/-Platform-/-More" mask="url(#mask-6)">
+                            <g transform="translate(8.552632, 8.552632)">
+                                <mask id="mask-10" fill="white">
+                                    <use xlink:href="#path-9"></use>
+                                </mask>
+                                <use id="More" stroke="none" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-9"></use>
+                                <g id="Icons-/-XColor-/-White" stroke="none" fill="none" mask="url(#mask-10)" fill-rule="evenodd">
+                                    <rect id="IconColor-/-White" fill="#FFFFFF" x="0" y="0" width="48" height="48"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Corretora" stroke-width="1" fill-rule="evenodd" transform="translate(35.000000, 371.000000)">
+                    <path d="M255,6 L0,6" id="Line" stroke="#F1F1F1" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <rect id="Rectangle" fill="#FFFFFF" x="91" y="0" width="73" height="13"></rect>
+                    <text id="Corretora:" font-family="Lato-Regular, Lato" font-size="10" font-weight="normal" fill="#888E8E">
+                        <tspan x="96.42" y="10">CORRETORA:</tspan>
+                    </text>
+                    <text id="Nome-da-corretora-01" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#888E8E">
+                        <tspan x="51.268" y="31">Nome da corretora 01</tspan>
+                    </text>
+                </g>
+                <g id="Cotação" stroke-width="1" fill-rule="evenodd" transform="translate(35.000000, 315.000000)" fill="#000000" font-family="Lato-Heavy, Lato" font-size="22" font-weight="600">
+                    <text id="107%-do-CDI">
+                        <tspan x="62.4515" y="36">107% do CDI</tspan>
+                    </text>
+                </g>
+                <g id="Valor-mínimo" stroke-width="1" fill-rule="evenodd" transform="translate(35.000000, 297.000000)">
+                    <path d="M255,12 L0,12" id="Line" stroke="#F1F1F1" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <rect id="Rectangle" fill="#FFFFFF" x="31" y="6" width="192" height="13"></rect>
+                    <text id="Valor-mínimo:-R$" font-family="Lato-Regular, Lato" font-size="10" font-weight="normal" fill="#888E8E">
+                        <tspan x="34.605" y="16">VALOR MÍNIMO:  R$</tspan>
+                    </text>
+                    <text id="XX.XXXX,XX" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#888E8E">
+                        <tspan x="131" y="16">XX.XXXX,XX</tspan>
+                    </text>
+                </g>
+                <g id="Rating" stroke-width="1" fill-rule="evenodd" transform="translate(35.000000, 269.000000)">
+                    <path d="M255,12 L0,12" id="Line" stroke="#F1F1F1" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <rect id="Rectangle" fill="#FFFFFF" x="82" y="6" width="93" height="13"></rect>
+                    <text id="RATING:" font-family="Lato-Regular, Lato" font-size="10" font-weight="normal" fill="#888E8E">
+                        <tspan x="85.685" y="16">RATING:</tspan>
+                    </text>
+                    <text id="A+SP" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#888E8E">
+                        <tspan x="131" y="16">A+SP</tspan>
+                    </text>
+                </g>
+                <g id="Liquidez" stroke-width="1" fill-rule="evenodd" transform="translate(35.000000, 227.000000)">
+                    <g id="Group-2" transform="translate(97.000000, 15.000000)">
+                        <text id="Diária" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#000000">
+                            <tspan x="0.044" y="16">Diária</tspan>
+                        </text>
+                        <g id="Icons-/-Platform-/-Information" transform="translate(46.000000, 3.000000)">
+                            <mask id="mask-12" fill="white">
+                                <use xlink:href="#path-11"></use>
+                            </mask>
+                            <use id="Information" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-11"></use>
+                            <g id="Icons-/-XColor-/-Gray-/-ExtraDark" mask="url(#mask-12)" fill="#2D2D2D" fill-rule="evenodd">
+                                <rect id="IconColor-/-Gray" x="0" y="0" width="16" height="16"></rect>
+                            </g>
+                        </g>
+                    </g>
+                    <path d="M255,6 L0,6" id="Line" stroke="#F1F1F1" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <rect id="Rectangle" fill="#FFFFFF" x="98" y="0" width="60" height="13"></rect>
+                    <text id="Liquidez:" font-family="Lato-Regular, Lato" font-size="10" font-weight="normal" fill="#888E8E">
+                        <tspan x="103.17" y="10">LIQUIDEZ:</tspan>
+                    </text>
+                </g>
+                <g id="Vencimento" stroke-width="1" fill-rule="evenodd" transform="translate(35.000000, 180.000000)">
+                    <path d="M255,6 L0,6" id="Line" stroke="#F1F1F1" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <rect id="Rectangle" fill="#FFFFFF" x="91" y="0" width="74" height="13"></rect>
+                    <text id="Vencimento:" font-family="Lato-Regular, Lato" font-size="10" font-weight="normal" fill="#888E8E">
+                        <tspan x="92.97" y="10">VENCIMENTO:</tspan>
+                    </text>
+                    <text id="XX/XX/XXXX" font-family="Lato-Heavy, Lato" font-size="22" font-weight="600" fill="#000000">
+                        <tspan x="58.32" y="35">XX/XX/XXXX</tspan>
+                    </text>
+                </g>
+                <g id="Banco-emissor" stroke-width="1" fill-rule="evenodd" transform="translate(35.000000, 135.000000)">
+                    <text id="Nome-do-banco-emisso" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#888E8E">
+                        <tspan x="45.108" y="31">Nome do banco emissor</tspan>
+                    </text>
+                    <path d="M255,6 L0,6" id="Line" stroke="#F1F1F1" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <rect id="Rectangle" fill="#FFFFFF" x="98" y="0" width="60" height="13"></rect>
+                    <text id="Emissor:" font-family="Lato-Regular, Lato" font-size="10" font-weight="normal" fill="#888E8E">
+                        <tspan x="104.69" y="10">EMISSOR:</tspan>
+                    </text>
+                </g>
+                <text id="Pós-fixado" font-family="Lato-Regular, Lato" font-size="18" font-weight="normal" line-spacing="28" fill="#555B5B">
+                    <tspan x="122.204" y="117">Pós-fixado</tspan>
+                </text>
+                <text id="CDB" font-family="Lato-Heavy, Lato" font-size="28" font-weight="600" fill="#000000">
+                    <tspan x="134.331" y="98">CDB</tspan>
+                </text>
+                <text id="Títulos-Privados" font-family="Lato-Bold, Lato" font-size="16" font-weight="bold" fill="#000000">
+                    <tspan x="105.176" y="52">Títulos Privados</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

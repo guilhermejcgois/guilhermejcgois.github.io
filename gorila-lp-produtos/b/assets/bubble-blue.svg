@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="311px" height="379px" viewBox="0 0 311 379" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>70F9011C-C0C6-4C00-B882-4DE8372F0096</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#10E9FF" offset="0%"></stop>
+            <stop stop-color="#4AF6FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.3">
+        <g id="Produtos-A" transform="translate(0.000000, -1875.000000)" fill="url(#linearGradient-1)">
+            <g id="Hero" transform="translate(-130.000000, 0.000000)">
+                <path d="M173.976813,2245.20732 C100.131331,2291.80649 -28.4105302,2130.97721 5.62316575,2001.32077 C29.0757188,1906.76605 79.4833897,1866.47165 222.076748,1876.49312 C354.310761,1898.44079 488.871425,2008.19539 422.866377,2151.73872 C366.190664,2284.54164 270.888734,2172.05288 173.976813,2245.20732 Z" id="Oval"></path>
+            </g>
+        </g>
+    </g>
+</svg>
