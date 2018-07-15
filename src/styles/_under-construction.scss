@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,500,300italic,500italic,700italic,900,300);
 
+$footer-size: 40px;
 $letter-lenth: 11px;
 $eyes-delay: 6s;
 $wave-delay: 11s;
@@ -84,7 +85,7 @@ body {
 .szene {
   position: absolute;
   left: 50%;
-  bottom: 0;
+  bottom: $footer-size;
   width: 800px;
   height: 400px;
   margin-left: -400px;
@@ -450,3 +451,62 @@ body {
   left: 30px;
   transform: rotate(65deg);
 }
+
+footer {
+  background: #4d4d4d;
+  bottom: 0;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Roboto Mono', monospace;
+  justify-content: space-between;
+  height: $footer-size;
+  left: 0;
+  margin-top: -$footer-size;
+  padding: 0 10px;
+  position: absolute;
+  width: 100vw;
+
+  .credits {
+    line-height: 1.5;
+    padding-top: 3px;
+  }
+
+  .credits a {
+    color: #009AEE;
+  }
+
+  .social ul {
+    display: grid;
+    grid-column-gap: 12px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr;
+  }
+}
+
+.social ul {
+  height: 100%;
+  list-style: none;
+
+  li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  a {
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: $footer-size / 2;
+    width: $footer-size / 2;
+  }
+}
+
+.codepen a { background-image: url('../assets/social/codepen.svg'); }
+.facebook a { background-image: url('../assets/social/facebook.svg'); }
+.github a { background-image: url('../assets/social/github.svg'); }
+.instagram a { background-image: url('../assets/social/instagram.svg'); }
+.linkedin a { background-image: url('../assets/social/linkedin.svg'); }
+.mail a { background-image: url('../assets/social/mail.svg'); }
+.twitter a { background-image: url('../assets/social/twitter.svg'); }

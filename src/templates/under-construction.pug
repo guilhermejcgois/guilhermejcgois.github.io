@@ -1,3 +1,23 @@
+-
+    var social = [
+        { className: 'mail', link: 'mailto:guilherme.gois@devgois.com' },
+        { className: 'facebook', link: 'https://www.facebook.com/guilhermejcgois/' },
+        { className: 'github', link: 'https://github.com/guilhermejcgois/' },
+        { className: 'twitter', link: 'https://twitter.com/guilhermejcgois/' },
+        { className: 'instagram', link: 'https://www.instagram.com/guilhermejcgois/' },
+        { className: 'codepen', link: 'https://www.instagram.com/guilhermejcgois/' },
+        { className: 'linkedin', link: 'https://www.linkedin.com/company/guilhermejcgois/' }
+    ];
+
+footer
+  .credits Based on a codepen by 
+    a(href="https://codepen.io/oknoblich/details/jfJmy") Oliver Knoblich
+  .social
+    ul
+      each item in social
+        li(class=item.className)
+          a(href=item.link) #{item.name}
+
 div(class="szene")
   div(class="image animate")
     div(class="line begin html")
