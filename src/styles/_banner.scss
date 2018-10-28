@@ -1,0 +1,97 @@
+@import "_colors";
+
+$bg-color-overlay: transparentize($bg-color-primary, 0.5);
+$bg-color-text: transparentize($color-primary, 0.5);
+$bg-color-text-hover: $color-primary;
+$content-width: 50vw;
+$page-height: 100vh;
+$page-width: 100vw;
+$scroll-border-color: gainsboro;
+$scroll-border-width: 3px;
+$scroll-height: 40px;
+$scroll-width: $scroll-height - 10px;
+
+.banner {
+  &--content {
+    align-items: center;
+    color: $bg-color-text;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: calc(50vw - #{$content-width} / 2);
+    opacity: 0.8;
+    position: absolute;
+    text-align: center;
+    top: 33%;
+    width: $content-width;
+    z-index: 1;
+  }
+
+  &--content:hover {
+    color: $bg-color-text-hover;
+    opacity: 1;
+  }
+
+  &--content .title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+
+  &--content .text {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &--overlay {
+    background: rgba(200, 200, 256, 0.5);
+    height: $page-height;
+    position: absolute;
+    top: 0;
+    width: $page-width;
+  }
+
+  &--background {
+    background-attachment: fixed;
+    background-image: url("../assets/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: $page-height;
+  }
+
+  &--scroll {
+    border-color: $scroll-border-color;
+    border-radius: $scroll-width;
+    border-style: solid;
+    border-width: $scroll-border-width;
+    bottom: 30px;
+    height: $scroll-height;
+    left: calc(50vw - #{$scroll-width} / 2);
+    position: absolute;
+    width: $scroll-width;
+  }
+
+  &--scroll:before {
+    animation: scroll-point 1.4s ease-in infinite;
+    border-color: $scroll-border-color;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: $scroll-border-width;
+    height: $scroll-border-width;
+    left: calc(50% - #{$scroll-border-width});
+    top: 5px;
+    width: $scroll-border-width;
+  }
+}
+
+@keyframes scroll-point {
+  from {}
+  to { opacity: 0; top: $scroll-height / 3; }
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .banner-background {
+        background-attachment: scroll;
+    }
+}

@@ -61,27 +61,6 @@ $html-end-steps-caret: $html-end-steps;
 $html-end-from-width: 0;
 $html-end-to-width: $letter-lenth * $html-end-steps;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-*:before, *:after {
-  content: '';
-  display: block;
-  position: absolute;
-  box-sizing: border-box;
-}
-
-html, body {
-  height: 100vh;
-}
-
-body {
-  background: #d93;
-}
-
 .szene {
   position: absolute;
   left: 50%;

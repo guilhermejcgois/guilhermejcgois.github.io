@@ -26,7 +26,7 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(png|svg|ico)$/,
+                test: /\.(png|svg|ico|jpg)$/,
                 use: [
                     'file-loader'
                 ]
@@ -56,11 +56,11 @@ module.exports = {
           filename: devMode ? '[name].css' : '[name].[hash].css',
           chunkFilename: devMode ? '[id].css' : '[id].[hash].css',
         }),
-        new webpack.optimize.ModuleConcatenationPlugin()
-        // new CopyWebpackPlugin([
-        //     './src/assets',
-        //     { from: './src/styles/*.css', to: './dist/'}
-        // ])
+        new webpack.optimize.ModuleConcatenationPlugin(),
+        new CopyWebpackPlugin([
+            { from: './src/assets', to: './assets' },
+            // { from: './src/styles/*.css', to: './dist/'}
+        ])
     ],
     output: {
         filename: 'bundle.js',
