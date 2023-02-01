@@ -1,9 +1,8 @@
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require('path');
-const rxPaths = require('rxjs/_esm5/path-mapping');
 const webpack = require('webpack');
 const webpackRxjsExternals = require('webpack-rxjs-externals');
 
@@ -12,8 +11,9 @@ const devMode = process.env.NODE_ENV !== 'production';
 module.exports = {
     entry: './src/index.js',
     devtool: 'inline-source-map',
+    mode: devMode ? 'development' : 'production',
     devServer: {
-        contentBase: './dist'
+        static: './dist'
     },
     module: {
         rules: [
@@ -35,12 +35,12 @@ module.exports = {
                 test: /\.pug$/,
                 use: [
                     'pug-loader'
-                ]
+                ],
             }
         ]
     },
     plugins: [
-        new CleanWebpackPlugin(['dist']),
+        new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             template: './src/index.pug',
             files: {
@@ -53,22 +53,22 @@ module.exports = {
             minify: !devMode
         }),
         new MiniCssExtractPlugin({
-          filename: devMode ? '[name].css' : '[name].[hash].css',
-          chunkFilename: devMode ? '[id].css' : '[id].[hash].css',
+            filename: devMode ? '[name].css' : '[name].[hash].css',
+            chunkFilename: devMode ? '[id].css' : '[id].[hash].css',
         }),
         new webpack.optimize.ModuleConcatenationPlugin(),
-        new CopyWebpackPlugin([
-            { from: './src/assets', to: './assets' },
-            // { from: './src/styles/*.css', to: './dist/'}
-        ])
+        new CopyWebpackPlugin({
+            patterns: [
+
+                { from: './src/assets', to: './assets' },
+            ]
+        }
+        )
     ],
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
         libraryTarget: 'umd'
-    },
-    resolve: {
-        alias: rxPaths()
     },
     externals: [
         webpackRxjsExternals()
